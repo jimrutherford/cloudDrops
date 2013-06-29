@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3722122415E51BBA00FABD21 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722122215E51BA000FABD21 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		37283FCC1581347F005B4123 /* uti_archive.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FC31581347F005B4123 /* uti_archive.png */; };
+		37283FCD1581347F005B4123 /* uti_data.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FC41581347F005B4123 /* uti_data.png */; };
+		37283FCE1581347F005B4123 /* uti_document.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FC51581347F005B4123 /* uti_document.png */; };
+		37283FCF1581347F005B4123 /* uti_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FC61581347F005B4123 /* uti_image.png */; };
+		37283FD01581347F005B4123 /* uti_link.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FC71581347F005B4123 /* uti_link.png */; };
+		37283FD11581347F005B4123 /* uti_movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FC81581347F005B4123 /* uti_movie.png */; };
+		37283FD21581347F005B4123 /* uti_music.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FC91581347F005B4123 /* uti_music.png */; };
+		37283FD31581347F005B4123 /* uti_presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FCA1581347F005B4123 /* uti_presentation.png */; };
+		37283FD41581347F005B4123 /* uti_sourcecode.png in Resources */ = {isa = PBXBuildFile; fileRef = 37283FCB1581347F005B4123 /* uti_sourcecode.png */; };
+		373123951551A02E005B0854 /* URLShortener.m in Sources */ = {isa = PBXBuildFile; fileRef = 373123921551A02E005B0854 /* URLShortener.m */; };
+		373123961551A02E005B0854 /* URLShortenerCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 373123941551A02E005B0854 /* URLShortenerCredentials.m */; };
+		3750FA8815E541F90078F135 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E7F4771549B39F002321A7 /* CoreData.framework */; };
+		3750FA8D15E5428F0078F135 /* Drops.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3750FA8B15E5428F0078F135 /* Drops.xcdatamodeld */; };
+		3750FA9215E549470078F135 /* _Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3750FA8F15E549470078F135 /* _Drop.m */; };
+		3750FA9315E549470078F135 /* Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3750FA9115E549470078F135 /* Drop.m */; };
+		3750FA9615E549FA0078F135 /* DropDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3750FA9515E549FA0078F135 /* DropDataModel.m */; };
+		37714F0F15E4547F0091876C /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37714F0C15E4547F0091876C /* MASPreferencesWindow.xib */; };
+		37714F1015E4547F0091876C /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37714F0E15E4547F0091876C /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		377247DA15E5514500E95B1C /* NSDate+TimeIntervals.m in Sources */ = {isa = PBXBuildFile; fileRef = 377247D915E5514500E95B1C /* NSDate+TimeIntervals.m */; };
+		37AE3F8E15E3FECC00C83B53 /* DropboxOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37AE3F8D15E3FECC00C83B53 /* DropboxOSX.framework */; };
+		37AE3F8F15E3FEDE00C83B53 /* DropboxOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AE3F8D15E3FECC00C83B53 /* DropboxOSX.framework */; };
+		37AE3F9515E4082500C83B53 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AE3F9415E4082500C83B53 /* Growl.framework */; };
+		37AE3F9715E4084A00C83B53 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37AE3F9415E4082500C83B53 /* Growl.framework */; };
+		37AE3F9915E40BA900C83B53 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 37AE3F9815E40BA900C83B53 /* Growl Registration Ticket.growlRegDict */; };
+		37AE3FA515E4825000C83B53 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37AE3FA215E4825000C83B53 /* GeneralPreferencesView.xib */; };
+		37AE3FA615E4825000C83B53 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AE3FA415E4825000C83B53 /* GeneralPreferencesViewController.m */; };
+		37AE3FAD15E486A700C83B53 /* AccountsPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AE3FAB15E486A700C83B53 /* AccountsPreferencesViewController.m */; };
+		37AE3FAE15E486A700C83B53 /* AccountsPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37AE3FAC15E486A700C83B53 /* AccountsPreferencesView.xib */; };
+		37D1E1E8158141AF008E06E8 /* DarkToastBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D1E1E7158141AF008E06E8 /* DarkToastBG.png */; };
+		37D1E1EB158188D6008E06E8 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D1E1EA158188D6008E06E8 /* NSFileManager+DirectoryLocations.m */; };
+		37D1E1EE15818E24008E06E8 /* uti_generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D1E1ED15818E24008E06E8 /* uti_generic.png */; };
+		37E7F4741549B39F002321A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E7F4731549B39F002321A7 /* Cocoa.framework */; };
+		37E7F47E1549B39F002321A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F47C1549B39F002321A7 /* InfoPlist.strings */; };
+		37E7F4801549B39F002321A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E7F47F1549B39F002321A7 /* main.m */; };
+		37E7F4841549B39F002321A7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4821549B39F002321A7 /* Credits.rtf */; };
+		37E7F4871549B39F002321A7 /* BXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E7F4861549B39F002321A7 /* BXAppDelegate.m */; };
+		37E7F48A1549B39F002321A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4881549B39F002321A7 /* MainMenu.xib */; };
+		37E7F4951549B6A2002321A7 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4941549B6A2002321A7 /* drop.png */; };
+		37E7F4991549BDF4002321A7 /* DragStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E7F4981549BDF4002321A7 /* DragStatusView.m */; };
+		37E7F4BC1549FFAD002321A7 /* 207-dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4BB1549FFAD002321A7 /* 207-dropbox.png */; };
+		37E7F4C8154A106A002321A7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E7F4C7154A106A002321A7 /* Security.framework */; };
+		37E7F4F3154F11C7002321A7 /* dropIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4F2154F11C7002321A7 /* dropIcon.png */; };
+		37E7F4F5154F471A002321A7 /* Drop_Progress_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4F4154F471A002321A7 /* Drop_Progress_1.png */; };
+		37E7F4F7154F4AD1002321A7 /* dropICNS.icns in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4F6154F4AD1002321A7 /* dropICNS.icns */; };
+		37E7F50015502C0C002321A7 /* Drop_Progress_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4FD15502C0C002321A7 /* Drop_Progress_2.png */; };
+		37E7F50115502C0C002321A7 /* Drop_Progress_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4FE15502C0C002321A7 /* Drop_Progress_3.png */; };
+		37E7F50215502C0C002321A7 /* Drop_Progress_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F4FF15502C0C002321A7 /* Drop_Progress_4.png */; };
+		37E7F50A15506CC0002321A7 /* Drop_Progress_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F50715506CC0002321A7 /* Drop_Progress_5.png */; };
+		37E7F50B15506CC0002321A7 /* Drop_Progress_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F50815506CC0002321A7 /* Drop_Progress_6.png */; };
+		37E7F50C15506CC0002321A7 /* dropDone.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E7F50915506CC0002321A7 /* dropDone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37AE3F8315E3FD1D00C83B53 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37AE3F8E15E3FECC00C83B53 /* DropboxOSX.framework in CopyFiles */,
+				37AE3F9715E4084A00C83B53 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3722122115E51BA000FABD21 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		3722122215E51BA000FABD21 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		37283FC31581347F005B4123 /* uti_archive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_archive.png; sourceTree = "<group>"; };
+		37283FC41581347F005B4123 /* uti_data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_data.png; sourceTree = "<group>"; };
+		37283FC51581347F005B4123 /* uti_document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_document.png; sourceTree = "<group>"; };
+		37283FC61581347F005B4123 /* uti_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_image.png; sourceTree = "<group>"; };
+		37283FC71581347F005B4123 /* uti_link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_link.png; sourceTree = "<group>"; };
+		37283FC81581347F005B4123 /* uti_movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_movie.png; sourceTree = "<group>"; };
+		37283FC91581347F005B4123 /* uti_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_music.png; sourceTree = "<group>"; };
+		37283FCA1581347F005B4123 /* uti_presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_presentation.png; sourceTree = "<group>"; };
+		37283FCB1581347F005B4123 /* uti_sourcecode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_sourcecode.png; sourceTree = "<group>"; };
+		373123911551A02E005B0854 /* URLShortener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLShortener.h; sourceTree = "<group>"; };
+		373123921551A02E005B0854 /* URLShortener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLShortener.m; sourceTree = "<group>"; };
+		373123931551A02E005B0854 /* URLShortenerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLShortenerCredentials.h; sourceTree = "<group>"; };
+		373123941551A02E005B0854 /* URLShortenerCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLShortenerCredentials.m; sourceTree = "<group>"; };
+		3750FA8C15E5428F0078F135 /* Drops.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drops.xcdatamodel; sourceTree = "<group>"; };
+		3750FA8E15E549470078F135 /* _Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Drop.h; sourceTree = "<group>"; };
+		3750FA8F15E549470078F135 /* _Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Drop.m; sourceTree = "<group>"; };
+		3750FA9015E549470078F135 /* Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drop.h; sourceTree = "<group>"; };
+		3750FA9115E549470078F135 /* Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drop.m; sourceTree = "<group>"; };
+		3750FA9415E549FA0078F135 /* DropDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDataModel.h; sourceTree = "<group>"; };
+		3750FA9515E549FA0078F135 /* DropDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDataModel.m; sourceTree = "<group>"; };
+		37714F0B15E4547F0091876C /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
+		37714F0C15E4547F0091876C /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		37714F0D15E4547F0091876C /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		37714F0E15E4547F0091876C /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
+		377247D815E5514500E95B1C /* NSDate+TimeIntervals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeIntervals.h"; sourceTree = "<group>"; };
+		377247D915E5514500E95B1C /* NSDate+TimeIntervals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeIntervals.m"; sourceTree = "<group>"; };
+		37AE3F8015E3FC3600C83B53 /* DropboxOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxOSX.framework; path = "dropbox-osx-sdk-1.3/DropboxOSX.framework"; sourceTree = "<group>"; };
+		37AE3F8D15E3FECC00C83B53 /* DropboxOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxOSX.framework; path = "dropbox-osx-sdk-1.3/DropboxOSX.framework"; sourceTree = "<group>"; };
+		37AE3F9415E4082500C83B53 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = frameworks/Growl.framework; sourceTree = "<group>"; };
+		37AE3F9815E40BA900C83B53 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		37AE3FA215E4825000C83B53 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
+		37AE3FA315E4825000C83B53 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		37AE3FA415E4825000C83B53 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		37AE3FAA15E486A700C83B53 /* AccountsPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsPreferencesViewController.h; sourceTree = "<group>"; };
+		37AE3FAB15E486A700C83B53 /* AccountsPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsPreferencesViewController.m; sourceTree = "<group>"; };
+		37AE3FAC15E486A700C83B53 /* AccountsPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountsPreferencesView.xib; sourceTree = "<group>"; };
+		37D1E1E7158141AF008E06E8 /* DarkToastBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkToastBG.png; sourceTree = "<group>"; };
+		37D1E1E9158188D6008E06E8 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		37D1E1EA158188D6008E06E8 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+		37D1E1ED15818E24008E06E8 /* uti_generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uti_generic.png; sourceTree = "<group>"; };
+		37E7F46F1549B39F002321A7 /* CloudDrops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudDrops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E7F4731549B39F002321A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		37E7F4761549B39F002321A7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		37E7F4771549B39F002321A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37E7F4781549B39F002321A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37E7F47B1549B39F002321A7 /* CloudDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudDrop-Info.plist"; sourceTree = "<group>"; };
+		37E7F47D1549B39F002321A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37E7F47F1549B39F002321A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E7F4811549B39F002321A7 /* CloudDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudDrop-Prefix.pch"; sourceTree = "<group>"; };
+		37E7F4831549B39F002321A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		37E7F4851549B39F002321A7 /* BXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXAppDelegate.h; sourceTree = "<group>"; };
+		37E7F4861549B39F002321A7 /* BXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXAppDelegate.m; sourceTree = "<group>"; };
+		37E7F4891549B39F002321A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		37E7F4941549B6A2002321A7 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		37E7F4971549BDF4002321A7 /* DragStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragStatusView.h; sourceTree = "<group>"; };
+		37E7F4981549BDF4002321A7 /* DragStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragStatusView.m; sourceTree = "<group>"; };
+		37E7F4BB1549FFAD002321A7 /* 207-dropbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "207-dropbox.png"; sourceTree = "<group>"; };
+		37E7F4C7154A106A002321A7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		37E7F4F2154F11C7002321A7 /* dropIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropIcon.png; sourceTree = "<group>"; };
+		37E7F4F4154F471A002321A7 /* Drop_Progress_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drop_Progress_1.png; sourceTree = "<group>"; };
+		37E7F4F6154F4AD1002321A7 /* dropICNS.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = dropICNS.icns; sourceTree = "<group>"; };
+		37E7F4FD15502C0C002321A7 /* Drop_Progress_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drop_Progress_2.png; sourceTree = "<group>"; };
+		37E7F4FE15502C0C002321A7 /* Drop_Progress_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drop_Progress_3.png; sourceTree = "<group>"; };
+		37E7F4FF15502C0C002321A7 /* Drop_Progress_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drop_Progress_4.png; sourceTree = "<group>"; };
+		37E7F50715506CC0002321A7 /* Drop_Progress_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drop_Progress_5.png; sourceTree = "<group>"; };
+		37E7F50815506CC0002321A7 /* Drop_Progress_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drop_Progress_6.png; sourceTree = "<group>"; };
+		37E7F50915506CC0002321A7 /* dropDone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropDone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E7F46C1549B39F002321A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3750FA8815E541F90078F135 /* CoreData.framework in Frameworks */,
+				37AE3F8F15E3FEDE00C83B53 /* DropboxOSX.framework in Frameworks */,
+				37E7F4C8154A106A002321A7 /* Security.framework in Frameworks */,
+				37E7F4741549B39F002321A7 /* Cocoa.framework in Frameworks */,
+				37AE3F9515E4082500C83B53 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37283FD615813486005B4123 /* UTI Types */ = {
+			isa = PBXGroup;
+			children = (
+				37D1E1ED15818E24008E06E8 /* uti_generic.png */,
+				37283FC31581347F005B4123 /* uti_archive.png */,
+				37283FC41581347F005B4123 /* uti_data.png */,
+				37283FC51581347F005B4123 /* uti_document.png */,
+				37283FC61581347F005B4123 /* uti_image.png */,
+				37283FC71581347F005B4123 /* uti_link.png */,
+				37283FC81581347F005B4123 /* uti_movie.png */,
+				37283FC91581347F005B4123 /* uti_music.png */,
+				37283FCA1581347F005B4123 /* uti_presentation.png */,
+				37283FCB1581347F005B4123 /* uti_sourcecode.png */,
+			);
+			name = "UTI Types";
+			sourceTree = "<group>";
+		};
+		37283FD7158134E0005B4123 /* Progress Icons */ = {
+			isa = PBXGroup;
+			children = (
+				37E7F50715506CC0002321A7 /* Drop_Progress_5.png */,
+				37E7F50815506CC0002321A7 /* Drop_Progress_6.png */,
+				37E7F50915506CC0002321A7 /* dropDone.png */,
+				37E7F4F4154F471A002321A7 /* Drop_Progress_1.png */,
+				37E7F4FD15502C0C002321A7 /* Drop_Progress_2.png */,
+				37E7F4FE15502C0C002321A7 /* Drop_Progress_3.png */,
+				37E7F4FF15502C0C002321A7 /* Drop_Progress_4.png */,
+			);
+			name = "Progress Icons";
+			sourceTree = "<group>";
+		};
+		3731238F1551A012005B0854 /* Bitly */ = {
+			isa = PBXGroup;
+			children = (
+				373123911551A02E005B0854 /* URLShortener.h */,
+				373123921551A02E005B0854 /* URLShortener.m */,
+				373123931551A02E005B0854 /* URLShortenerCredentials.h */,
+				373123941551A02E005B0854 /* URLShortenerCredentials.m */,
+			);
+			name = Bitly;
+			sourceTree = "<group>";
+		};
+		3750FA8A15E542010078F135 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3750FA8E15E549470078F135 /* _Drop.h */,
+				3750FA8F15E549470078F135 /* _Drop.m */,
+				3750FA9015E549470078F135 /* Drop.h */,
+				3750FA9115E549470078F135 /* Drop.m */,
+				3750FA8B15E5428F0078F135 /* Drops.xcdatamodeld */,
+				3750FA9415E549FA0078F135 /* DropDataModel.h */,
+				3750FA9515E549FA0078F135 /* DropDataModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		37714F1215E454840091876C /* UserPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				3722122115E51BA000FABD21 /* LaunchAtLoginController.h */,
+				3722122215E51BA000FABD21 /* LaunchAtLoginController.m */,
+				37AE3FA215E4825000C83B53 /* GeneralPreferencesView.xib */,
+				37AE3FA315E4825000C83B53 /* GeneralPreferencesViewController.h */,
+				37AE3FA415E4825000C83B53 /* GeneralPreferencesViewController.m */,
+				37714F0B15E4547F0091876C /* MASPreferencesViewController.h */,
+				37714F0C15E4547F0091876C /* MASPreferencesWindow.xib */,
+				37714F0D15E4547F0091876C /* MASPreferencesWindowController.h */,
+				37714F0E15E4547F0091876C /* MASPreferencesWindowController.m */,
+				37AE3FAA15E486A700C83B53 /* AccountsPreferencesViewController.h */,
+				37AE3FAB15E486A700C83B53 /* AccountsPreferencesViewController.m */,
+				37AE3FAC15E486A700C83B53 /* AccountsPreferencesView.xib */,
+			);
+			name = UserPreferences;
+			sourceTree = "<group>";
+		};
+		37D1E1EC158188DD008E06E8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				37D1E1E9158188D6008E06E8 /* NSFileManager+DirectoryLocations.h */,
+				37D1E1EA158188D6008E06E8 /* NSFileManager+DirectoryLocations.m */,
+				377247D815E5514500E95B1C /* NSDate+TimeIntervals.h */,
+				377247D915E5514500E95B1C /* NSDate+TimeIntervals.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		37E7F4641549B39F002321A7 = {
+			isa = PBXGroup;
+			children = (
+				37AE3F8D15E3FECC00C83B53 /* DropboxOSX.framework */,
+				37E7F4791549B39F002321A7 /* CloudDrop */,
+				37E7F4721549B39F002321A7 /* Frameworks */,
+				37E7F4701549B39F002321A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E7F4701549B39F002321A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E7F46F1549B39F002321A7 /* CloudDrops.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E7F4721549B39F002321A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37AE3F9415E4082500C83B53 /* Growl.framework */,
+				37AE3F8015E3FC3600C83B53 /* DropboxOSX.framework */,
+				37E7F4C7154A106A002321A7 /* Security.framework */,
+				37E7F4731549B39F002321A7 /* Cocoa.framework */,
+				37E7F4751549B39F002321A7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E7F4751549B39F002321A7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E7F4761549B39F002321A7 /* AppKit.framework */,
+				37E7F4771549B39F002321A7 /* CoreData.framework */,
+				37E7F4781549B39F002321A7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		37E7F4791549B39F002321A7 /* CloudDrop */ = {
+			isa = PBXGroup;
+			children = (
+				3750FA8A15E542010078F135 /* DataModel */,
+				37D1E1EC158188DD008E06E8 /* Categories */,
+				37E7F4DC154E2C0D002321A7 /* Resources */,
+				3731238F1551A012005B0854 /* Bitly */,
+				37E7F4851549B39F002321A7 /* BXAppDelegate.h */,
+				37E7F4861549B39F002321A7 /* BXAppDelegate.m */,
+				37E7F4881549B39F002321A7 /* MainMenu.xib */,
+				37714F1215E454840091876C /* UserPreferences */,
+				37E7F4971549BDF4002321A7 /* DragStatusView.h */,
+				37E7F4981549BDF4002321A7 /* DragStatusView.m */,
+				37E7F47A1549B39F002321A7 /* Supporting Files */,
+			);
+			path = CloudDrop;
+			sourceTree = "<group>";
+		};
+		37E7F47A1549B39F002321A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E7F47B1549B39F002321A7 /* CloudDrop-Info.plist */,
+				37E7F47C1549B39F002321A7 /* InfoPlist.strings */,
+				37E7F47F1549B39F002321A7 /* main.m */,
+				37E7F4811549B39F002321A7 /* CloudDrop-Prefix.pch */,
+				37E7F4821549B39F002321A7 /* Credits.rtf */,
+				37AE3F9815E40BA900C83B53 /* Growl Registration Ticket.growlRegDict */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37E7F4DC154E2C0D002321A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37283FD615813486005B4123 /* UTI Types */,
+				37283FD7158134E0005B4123 /* Progress Icons */,
+				37D1E1E7158141AF008E06E8 /* DarkToastBG.png */,
+				37E7F4F6154F4AD1002321A7 /* dropICNS.icns */,
+				37E7F4F2154F11C7002321A7 /* dropIcon.png */,
+				37E7F4BB1549FFAD002321A7 /* 207-dropbox.png */,
+				37E7F4941549B6A2002321A7 /* drop.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E7F46E1549B39F002321A7 /* CloudDrops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E7F48D1549B39F002321A7 /* Build configuration list for PBXNativeTarget "CloudDrops" */;
+			buildPhases = (
+				37E7F46B1549B39F002321A7 /* Sources */,
+				37E7F46C1549B39F002321A7 /* Frameworks */,
+				37E7F46D1549B39F002321A7 /* Resources */,
+				37AE3F8315E3FD1D00C83B53 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudDrops;
+			productName = CloudDrop;
+			productReference = 37E7F46F1549B39F002321A7 /* CloudDrops.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E7F4661549B39F002321A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BX;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Malaspina University-College";
+			};
+			buildConfigurationList = 37E7F4691549B39F002321A7 /* Build configuration list for PBXProject "CloudDrops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37E7F4641549B39F002321A7;
+			productRefGroup = 37E7F4701549B39F002321A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E7F46E1549B39F002321A7 /* CloudDrops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E7F46D1549B39F002321A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E7F47E1549B39F002321A7 /* InfoPlist.strings in Resources */,
+				37E7F4841549B39F002321A7 /* Credits.rtf in Resources */,
+				37E7F48A1549B39F002321A7 /* MainMenu.xib in Resources */,
+				37E7F4951549B6A2002321A7 /* drop.png in Resources */,
+				37E7F4BC1549FFAD002321A7 /* 207-dropbox.png in Resources */,
+				37E7F4F3154F11C7002321A7 /* dropIcon.png in Resources */,
+				37E7F4F5154F471A002321A7 /* Drop_Progress_1.png in Resources */,
+				37E7F4F7154F4AD1002321A7 /* dropICNS.icns in Resources */,
+				37E7F50015502C0C002321A7 /* Drop_Progress_2.png in Resources */,
+				37E7F50115502C0C002321A7 /* Drop_Progress_3.png in Resources */,
+				37E7F50215502C0C002321A7 /* Drop_Progress_4.png in Resources */,
+				37E7F50A15506CC0002321A7 /* Drop_Progress_5.png in Resources */,
+				37E7F50B15506CC0002321A7 /* Drop_Progress_6.png in Resources */,
+				37E7F50C15506CC0002321A7 /* dropDone.png in Resources */,
+				37283FCC1581347F005B4123 /* uti_archive.png in Resources */,
+				37283FCD1581347F005B4123 /* uti_data.png in Resources */,
+				37283FCE1581347F005B4123 /* uti_document.png in Resources */,
+				37283FCF1581347F005B4123 /* uti_image.png in Resources */,
+				37283FD01581347F005B4123 /* uti_link.png in Resources */,
+				37283FD11581347F005B4123 /* uti_movie.png in Resources */,
+				37283FD21581347F005B4123 /* uti_music.png in Resources */,
+				37283FD31581347F005B4123 /* uti_presentation.png in Resources */,
+				37283FD41581347F005B4123 /* uti_sourcecode.png in Resources */,
+				37D1E1E8158141AF008E06E8 /* DarkToastBG.png in Resources */,
+				37D1E1EE15818E24008E06E8 /* uti_generic.png in Resources */,
+				37AE3F9915E40BA900C83B53 /* Growl Registration Ticket.growlRegDict in Resources */,
+				37714F0F15E4547F0091876C /* MASPreferencesWindow.xib in Resources */,
+				37AE3FA515E4825000C83B53 /* GeneralPreferencesView.xib in Resources */,
+				37AE3FAE15E486A700C83B53 /* AccountsPreferencesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E7F46B1549B39F002321A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E7F4801549B39F002321A7 /* main.m in Sources */,
+				37E7F4871549B39F002321A7 /* BXAppDelegate.m in Sources */,
+				37E7F4991549BDF4002321A7 /* DragStatusView.m in Sources */,
+				373123951551A02E005B0854 /* URLShortener.m in Sources */,
+				373123961551A02E005B0854 /* URLShortenerCredentials.m in Sources */,
+				37D1E1EB158188D6008E06E8 /* NSFileManager+DirectoryLocations.m in Sources */,
+				37714F1015E4547F0091876C /* MASPreferencesWindowController.m in Sources */,
+				37AE3FA615E4825000C83B53 /* GeneralPreferencesViewController.m in Sources */,
+				37AE3FAD15E486A700C83B53 /* AccountsPreferencesViewController.m in Sources */,
+				3722122415E51BBA00FABD21 /* LaunchAtLoginController.m in Sources */,
+				3750FA8D15E5428F0078F135 /* Drops.xcdatamodeld in Sources */,
+				3750FA9215E549470078F135 /* _Drop.m in Sources */,
+				3750FA9315E549470078F135 /* Drop.m in Sources */,
+				3750FA9615E549FA0078F135 /* DropDataModel.m in Sources */,
+				377247DA15E5514500E95B1C /* NSDate+TimeIntervals.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37E7F47C1549B39F002321A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E7F47D1549B39F002321A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37E7F4821549B39F002321A7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E7F4831549B39F002321A7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		37E7F4881549B39F002321A7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E7F4891549B39F002321A7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E7F48B1549B39F002321A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37E7F48C1549B39F002321A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37E7F48E1549B39F002321A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/dropbox-osx-sdk-1.3\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudDrop/CloudDrop-Prefix.pch";
+				INFOPLIST_FILE = "CloudDrop/CloudDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37E7F48F1549B39F002321A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/dropbox-osx-sdk-1.3\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudDrop/CloudDrop-Prefix.pch";
+				INFOPLIST_FILE = "CloudDrop/CloudDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E7F4691549B39F002321A7 /* Build configuration list for PBXProject "CloudDrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E7F48B1549B39F002321A7 /* Debug */,
+				37E7F48C1549B39F002321A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E7F48D1549B39F002321A7 /* Build configuration list for PBXNativeTarget "CloudDrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E7F48E1549B39F002321A7 /* Debug */,
+				37E7F48F1549B39F002321A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3750FA8B15E5428F0078F135 /* Drops.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3750FA8C15E5428F0078F135 /* Drops.xcdatamodel */,
+			);
+			currentVersion = 3750FA8C15E5428F0078F135 /* Drops.xcdatamodel */;
+			path = Drops.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37E7F4661549B39F002321A7 /* Project object */;
+}
